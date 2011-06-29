@@ -1,0 +1,105 @@
+# Testing JavaScript is difficult. 
+## (Not testing JavaScript is more difficult.)
+=====================================
+
+# Rhetorical Questions:
+
+* What does it mean to say that a feature is tested?
+** Is that the same as the statement that it was driven by tests?
+** What type of tests?
+*** Acceptance Tests?
+*** Integration Tests?
+*** Unit Tests?
+** How many tests?
+** What is the ratio of those tests? (1:2:3 ?)
+
+* Are automated tests more valuable in some parts of your application than others? Where and why?
+** 100% coverage? (Metric Driven Development)
+** Higher concentration of tests around higher value functionality?
+
+* Of the benefits a test-first development practice provides, which is the most valuable to you?
+* If our goal in applying [B|T][D|F]D is quality, what does it say when employ it in one part of our application but neglect tests entirely in another?
+
+# "I hate JavaScript!" 
+Is it possible that we blame a language over frustrations that we'd experience with any untested code? 
+
+Maybe we're really mad at: 
+
+* The high cost of change; prevents the emergence of simple designs over time
+* Unsafe refactoring; prevents the discovery of better implementations via trial and error
+* Slow feedback loops (CMD-R / F5 / FireBug-Driven Development [FBDD])
+** The resulting feedback is so coarse it's exasperating 
+** We only see our JavaScript in the context of the whole page 
+** If anything goes wrong, we have to mentally broaden our focus to the fully-integrated web app  
+
+# Is it hypocritical if we don't test JavaScript? 
+It depends. Why do you test?
+
+* To discover and clearly articulate what we're building as we go about building it?
+Given building a system to fulfill a business need is part the value proposition your team is expected to support
+And the process is not being applied to important components of your system
+When you apply your development process
+Then there may be flaws in the result
+
+* In order to TATFT? 
+Given you are not testing all the time
+When you talk about testing all the time 
+Then there may be flaws in the result
+
+... Unless your t-shirt says TATFTEJSBIJJSWTBFD: 
+Test all the flipping time except JavaScript because it's just jQuery, so what's the big flipping deal
+
+* To deliver quality? 
+Given the Theory of Constraints ("a chain is no stronger than its weakest link")
+When you do not respect this theory
+Then impending doom.
+
+* Because someone told you to and JavaScript doesn't show up on your rcov report? 
+No. You're not a hypocrite. But you might be introducing expensive risk. 
+
+# It's hard to test JavaScript, but...
+
+* Jasmine is reaching critical mass (after years of analysis paralysis among 18+ one-off JS test frameworks)
+* Jasmine looks a whole lot like RSpec, so it should be familiar to Rubyists! 
+** #describe, #it, #expect
+** Custom matcher support 
+** Spies (~= mocks) 
+* Rails plugins are out there: jasmine-gem, evergreen, others
+* The community can help you and it's growing rapidly
+* We have found that Jasmine:
+** is emininently capable of testing asynchronous, evented code in isolation
+** can be used effectively to characterize a tangled^1 legacy^2 mess of nested anonymous functions 
+   (with DRY, nested example groups) 
+** is helpful in discovering and safely extracting abstractions
+** marks a critical step toward a path to JavaScript that is
+*** well-crafted 
+*** reusable 
+*** decoupled from the DOM and/or specific Rails views (as undesirable as that might sound now)
+
+# It's harder not to (test it):
+
+* Users' most direct, memorable interactions on the web happen in JavaScript, not Ruby. 
+If you can't confidently grow and change the code that the users see most, you're building in a huge amount of risk and cost.
+
+* The days of getting away with sprinkling a little JavaScript to add some sparks are behind us; 
+Even if it starts small, it will grow. 
+Without tests, the effort to avoid turning your JS into a big ball of mud must 
+take less discipline than we're apparently willing to claim in Ruby 
+(since we're adamant about writing tests there)!
+
+* A single page interface makes sense for a growing class of web sites
+If you're not bringing your A-game to the client-side, you'll struggle to compete. 
+Having a sophisticated web framework like Rails can hobble your decision-making 
+if you wield it like a golden hammer.
+
+ * /and I could go on and on and on on how much legacy code sucks. /
+
+Why would we throw good practices out the window, 
+especially when building rich interactions on the web, 
+just because we're to lazy to work through the new-ness of testing JavaScript.
+
+Conclusion: The Ruby community has helped to define what craftsmanship means. 
+It would be foolish to ignore that wisdom when we write JavaScript. 
+
+It's not that difficult. 
+Now go write some Jasmine. 
