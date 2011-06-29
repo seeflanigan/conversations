@@ -1,0 +1,41 @@
+#Title*
+
+Testing JavaScript is difficult. (Not testing JavaScript is more difficult.)
+
+#Description (markdown enabled)*
+
+#Notes (for reviewers)
+
+
+#Name* 
+
+Cory Flanigan & Justin Searls
+
+#Email* 
+
+seeflanigan@gmail.com & searls@gmail.com
+
+#Bio (markdown enabled)*
+
+Justin Searls is on a mission to help developers build more collaborative client relationships and more meaningful user experiences. As a member of Pillar Technology, he helps organizations adopt values and practices from the agile and software craftsmanship communities.  In the software community, he strives to help lower the barrier of entry for others to deliver well specified, high-quality software. Recently, he's been promoting JavaScript testing by speaking on client-side craftsmanship, creating interactive demos to help folks get started with Jasmine and CoffeeScript (like http://try-jasmine.heroku.com), and maintaining a Maven plugin for including Jasmine specs in project builds (http://github.com/searls/jasmine-maven-plugin).
+
+
+#Company
+
+Obtiva & Pillar Technology
+
+#Location
+
+??, Colorado & Columbus, Ohio
+
+#Website
+
+http://increaseyourgeek.wordpress.com & http://about.me/searls
+
+#Twitter username
+
+@seeflanigan & @searls
+
+Phone
+
+**redacted**
