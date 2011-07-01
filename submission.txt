@@ -1,41 +1,56 @@
 #Title*
-
-Testing JavaScript is difficult. (Not testing JavaScript is more difficult.)
+Start using Jasmine. Write better JavaScript. Profit. 
 
 #Description (markdown enabled)*
+As practitioners who comprise the Ruby software community, we have made great strides to establish testing as a best practice. We have done so in order to build quality into our processes and systems. 
+
+It seems, however, that we have a blind spot when it comes to one of the most important parts of our applications: rich user interaction written in JavaScript. 
+
+It used to be the case that we could blame this disregard for JavaScript tests on a lack of good testing tools, or having very limited amounts of JS in our applications. 
+
+Now more than ever before, rich user interfaces are prevalent, and testing tools have made great strides; specifically with regard to Jasmine. 
+
+We will briefly discuss reasons why JavaScript tests are critical, and easier than ever before. 
+
+The purpose of our presentation is to provide fellow software developers with actionable knowledge of how to:
+
+* Add Jasmine to your applications
+* Use common patterns for testing JavaScript
+* Stop lying about testing all the time 
+* Create and maintain automated tests for your JavaScript
+* Start using Jasmine. Start writing better JS. Profit. 
 
 #Notes (for reviewers)
+1. The talk could be presented in either 20 or 30 minutes. 
 
+2. Rocky Mountain Ruby would be the first instance of this talk. 
+
+Thank you for your consideration. If you're interested in detail which suggests the breadth of the topic, we are developing our talk here: 
+
+https://raw.github.com/seeflanigan/conversations/master/testing.txt
 
 #Name* 
-
-Cory Flanigan & Justin Searls
+Justin Searls & Cory Flanigan
 
 #Email* 
-
-seeflanigan@gmail.com & searls@gmail.com
+searls@gmail.com & seeflanigan@gmail.com 
 
 #Bio (markdown enabled)*
-
 Justin Searls is on a mission to help developers build more collaborative client relationships and more meaningful user experiences. As a member of Pillar Technology, he helps organizations adopt values and practices from the agile and software craftsmanship communities.  In the software community, he strives to help lower the barrier of entry for others to deliver well specified, high-quality software. Recently, he's been promoting JavaScript testing by speaking on client-side craftsmanship, creating interactive demos to help folks get started with Jasmine and CoffeeScript (like http://try-jasmine.heroku.com), and maintaining a Maven plugin for including Jasmine specs in project builds (http://github.com/searls/jasmine-maven-plugin).
 
+A full time technologist, Cory Flanigan tests, learns, and creates software. Some combination of the Ruby language, Rails framework, Internet are typically applied therein. I work with Obtiva in Denver. The thriving software communities in the Boulder and Denver are important to me. 
 
 #Company
-
 Obtiva & Pillar Technology
 
 #Location
-
-??, Colorado & Columbus, Ohio
+Denver Colorado & Columbus Ohio
 
 #Website
-
-http://increaseyourgeek.wordpress.com & http://about.me/searls
+http://about.me/searls & http://increaseyourgeek.wordpress.com
 
 #Twitter username
-
-@seeflanigan & @searls
+@searls & @seeflanigan 
 
 Phone
-
 **redacted**
